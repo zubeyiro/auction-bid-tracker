@@ -3,7 +3,7 @@ Concurrent bidding system
 
 ## Endpoints
 
-# Create Bid
+### Create Bid
 `/auctions/:AuctionID/bids (POST)`
 
 Request body
@@ -22,7 +22,7 @@ Response format
 }
 ```
 
-# List bids for auction
+### List bids for auction
 `/auctions/:AuctionID/bids (GET)`
 
 Response format
@@ -39,7 +39,7 @@ Response format
 }
 ```
 
-# Get auction with last (highest) bid
+### Get auction with last (highest) bid
 `/auctions/1 (GET)`
 
 Response format
@@ -59,7 +59,7 @@ Response format
 }
 ```
 
-# Get users bidded auctions
+### Get users bidded auctions
 `/auctions/users/bids/:UserID`
 
 Response format
