@@ -95,3 +95,9 @@ For testing, run;
 For running RESTful API, run;
 
 `go run src/main.go`
+
+There is also another endpoint;
+
+`/db`
+
+When REST service is running, you can reach live data object (database) by making GET request to this endpoint.
